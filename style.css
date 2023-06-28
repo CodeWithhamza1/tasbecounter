@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lacquer&family=Martian+Mono:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300;1,500;1,600&display=swap');
+  
+  body {
+   
+    font-family: 'Poppins', sans-serif;
+    background-color: #0C090A;
+    user-select: none;
+  }
+  
+  .h{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+  }
+  
+  .main {
+  
+  text-align: center;
+  color: white;
+  
+  }
+  
+  #tnum{
+    display: inline-block;
+    border: 5px solid #232521;
+    padding: 110px 126px 110px 126px;
+    border-radius: 50%;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    animation: bg-change 4s linear;
+    animation: waterWave 20s infinite alternate ease-in-out;
+    transition: all .5s;
+    font-family: 'Martian Mono', monospace;
+  }
+
+  .btnwrap{
+  
+    margin-top: 20px;
+  
+  }
+  
+  .tbtn{
+    animation: waterWave 10s infinite ease-in-out;
+    transition: all .5s;
+    padding: 15px 50px 15px 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #0058ff;
+    color: #fff;
+    font-size: 28px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 6px 8px rgba(103, 140, 243, 0.336);
+    -moz-box-shadow: 0px 0px 6px 8px rgba(103, 140, 243, 0.336);
+    box-shadow: 0px 0px 6px 8px rgba(103, 140, 243, 0.336);
+    font-family: 'Lacquer', cursive;
+    font-weight: bold;
+  }
+  
+  .rbtn {
+    font-weight: bold;
+    font-family: 'Fasthand', cursive;
+    animation: waterWave 10s infinite alternate ease-in-out;
+    transition: all .5s;
+    padding: 15px 50px 15px 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ee1a1a;
+    color: #fff;
+    font-size: 28px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 6px 8px rgba(236, 69, 69, 0.336);
+    -moz-box-shadow: 0px 0px 6px 8px rgba(236, 69, 69, 0.336);
+    box-shadow: 0px 0px 6px 8px rgba(236, 69, 69, 0.336);
+  }
+  
+  
+  /* Keyframes for water wave animation */
+@keyframes waterWave {
+  0% {
+    border-radius: 85% 92% 45% 91% / 89% 83% 100% 94%;
+  }
+  20%{
+    border-radius: 81% 19% 70% 30% / 16% 86% 14% 84% ;
+  }
+  30%{
+    border-radius: 39% 61% 15% 85% / 16% 8% 92% 84% ;
+  }
+  40%{
+    border-radius: 39% 61% 15% 85% / 78% 8% 92% 22% ;
+  }
+  50% {
+    border-radius: 70% 30% 64% 36% / 42% 87% 13% 58% ;
+  }
+  60%{
+    border-radius: 70% 30% 35% 65% / 62% 14% 86% 38% ;
+  }
+  70%{
+    border-radius: 14% 86% 35% 65% / 62% 36% 64% 38% ;
+  }
+  80%{
+    border-radius: 73% 27% 74% 26% / 21% 36% 64% 79% ;
+  }
+  90%{
+    border-radius: 52% 46% 45% 50% / 49% 34% 61% 37% ;
+  }
+  100% {
+    border-radius: 85% 92% 45% 91% / 89% 83% 100% 94% ;
+  }
+}
